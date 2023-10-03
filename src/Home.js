@@ -8,6 +8,7 @@ import "./Home.css"
 function App() {
     return (
       <div>
+        {/* Header */}
         <header>
           <div className="header-body">
             <div className="logo-header">Liberio</div>
@@ -37,7 +38,39 @@ function App() {
             </div>
           </div>
         </header>
+        {/* Body */}
         <body></body>
+        {/* Footer */}
+        <footer>
+          <div className ="footer-body">
+            <div className="row">
+              <ul>
+                <div className="row-title">
+                  Information
+                </div>
+                <li>About Us</li>
+                <li>FAQ</li>
+                <li>Terms and Conditions</li>
+              </ul> 
+            </div>
+            <div className="row">
+            <ul>
+              Follow Us
+                <li>Baron Bramantyo</li>
+                <li>Louie Llywton</li>
+                <li>Jonathan Woen</li>
+              </ul>
+            </div>
+            <div className="row">
+            <ul>
+              Contact Us
+                <li>abcd</li>
+                <li>efgh</li>
+                <li>ijkl</li>
+              </ul>
+            </div>
+          </div>
+        </footer>
       </div>
     );
   }
