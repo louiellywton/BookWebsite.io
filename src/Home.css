@@ -1,123 +1,15 @@
 @import 'material-symbols';
 
+@font-face {
+    font-family: 'PT Sans Bold';
+    src: url(Fonts/PTSans-Bold.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: blanchedalmond;
     font-family: 'PT Sans', sans-serif;
-}
-
-header {
-    background-color: 	#00784A;
-    height: 80px;
-    display: flex;  
-    justify-content: flex-start;
-    align-items: center;
-}
-
-footer {
-    border: 1px solid black;
-    background-color: 	#ffffff;
-    /* margin-top: 500px; */
-    height: 250px;
-    display: flex;  
-    justify-content: flex-start;
-    align-items: center;  
-}
-
-.header-body {
-    display: flex;
-    flex-direction: row;
-}   
-
-.logo-header {
-    color: white;
-    font-size: 32px;
-    margin: 0 0 0 150px;
-}
-
-.search-bar {
-    border: 2px solid white;
-    width: 600px;
-    height: 40px;
-    margin: 0 0 0 150px;
-    background-color: white;
-    border-radius: 10px;
-
-    display: flex;
-    align-items: center;
-    /* padding: 0 0 0 20px; */
-    color: gray;
-}
-
-.categories {
-    /* margin: 0 50px 0 0; */
-    padding: 0 5px 0 20px;
-    color: black;
-    width: auto;
-    white-space: nowrap;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.expand-icon {
-    padding: 7px 10px 0 0;
-    color: black;
-}
-
-.vl {
-    border-left: 1px solid rgb(145, 143, 143);
-    height: 44px;
-}
-
-.search input{
-    padding: 0 0 0 20px;
-    position: relative;
-    width: 350px;
-    border: none;
-    outline: none;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.search input:focus{
-    outline: none;
-}
-
-.search-icon{
-    padding: 4px 0 0 20px;
-    color: black;
-}
-
-.icon-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 165px;
-    margin: 0 0 0 100px;
-}
-
-.wishlist-icon {
-    color: white;
-    padding: 7px 0 0 0;
-}
-
-/* Footer */
-.footer-body {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 500px;
-}
-
-.row {
-
-}
-
-.row-title {
-    font-family: 'PT Sans Bold', sans-serif;
-}
-
-.row ul {
-    font-family: 'PT Sans', sans-serif;
-    list-style-type: none;
-    font-size: 20px;
+    /* Tes doang */
+    height: 500px;
 }
